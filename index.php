@@ -14,7 +14,7 @@
            The site admin username and password are stored in the config file in the Includes directory. 
         </li>
         <li class="two">
-            <h5>Customize your site, Lester!</h5>
+            <h5>Customize your site, Lester the Fester!</h5>
              After you login, you can add, delete, and modify web pages.
          </li>
         <li class="asterisk">
