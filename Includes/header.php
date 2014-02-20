@@ -7,7 +7,6 @@
         <link href="/Styles/Site.css" rel="stylesheet" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-
     </head>
     <body>
         <div class="outer-wrapper">
@@ -32,6 +31,7 @@
                         }
                         else
                         {
+                            echo '<li>Are you already a member? Sign in here.</li>' . "\n";
                             echo '<li><a href="/logon.php">Login</a></li>' . "\n";
                             echo '<li><a href="/register.php">Register</a></li>' . "\n";
                         }
