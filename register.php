@@ -46,13 +46,9 @@
                     <li>
                         <label for="username">Username:</label> 
                         <input type="text" name="username" value="" id="username" />
-                    </li> 
-                    <li>
-                        <label for="password">Password:</label>
-                        <input type="password" name="password" value="" id="password" />
                     </li>
                     <li>
-                        <label for="password">Verify Password:</label>
+                        <label for="password">Password:</label>
                         <input type="password" name="password" value="" id="password" />
                     </li>
                 </ol>
