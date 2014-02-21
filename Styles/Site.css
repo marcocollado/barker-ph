@@ -164,7 +164,7 @@ h5, h6 {
 		width:385px;
 		height:33px;
 		float: right;
-		margin:120px 51px 0 0;
+		margin:130px 51px 0 0;
 		padding:0px;
 	}
 #menu ul
@@ -198,7 +198,7 @@ h5, h6 {
 		color:#FFF;
 		text-align:center;
 		text-decoration:none;
-		background-image:url(logoko2.jpg);
+		background-image:url(/images/menu.jpg);
 		background-repeat:no-repeat;
 	}	
 #menu ul li a.menu:hover
@@ -214,8 +214,145 @@ h5, h6 {
 		color:#FFF;
 		text-align:center;
 		text-decoration:none;
-		background-image: url(images/menuover.jpg);
+		background-image: url(/images/menuover.jpg);
 		background-repeat:no-repeat;		
+	}
+
+#login
+	{
+		width:649px;
+		height:106px;
+		float: right;
+		margin:35px 53px 0 0;
+		padding:0px;
+		background-image:url(images/loginbg.jpg);
+		background-repeat:no-repeat;
+	}
+#logintxtblank
+	{
+		width:622px;
+		height:89px;
+		float: left;
+		margin:0px;
+		padding:17px 0 0 27px;
+	}
+#loginheading
+	{
+		width:622px;
+		height:21px;
+		float: left;
+		margin:0 0 8px 0;
+		padding:0px;
+		font-family:Georgia;
+		font-size:20px;
+		color:#000;
+	}
+#loginheading h4
+	{
+		width:622px;
+		height:21px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		font-family:Georgia;
+		font-size:20px;
+		font-weight:normal;
+		color:#000;
+	}
+#username
+	{
+		width:65px;
+		height:14px;
+		float: left;
+		margin:0px;
+		padding:7px 0 0 0;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+#input
+	{
+		width:197px;
+		height:21px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+#password
+	{
+		width:52px;
+		height:14px;
+		float:left;
+		margin:0px;
+		padding:7px 0 0 23px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+#input02
+	{
+		width:197px;
+		height:21px;
+		float: left;
+		margin:0px;
+		padding:0px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+	}
+.input
+	{
+		width:181px;
+		height:17px;
+		float: left;
+		margin:0px;
+		padding:4px 0 0 16px;
+		font-family:Arial;
+		font-size:10px;
+		color:#95844d;
+		border:solid 1px #ead28b;
+		background-color:#ead28b;
+	}
+#loginbutton
+	{
+		width:50px;
+		height:23px;
+		float:left;
+		margin:0 0 0 20px;
+		padding:0px;
+	}
+.login
+	{
+		width:50px;
+		height:19px;
+		float:left;
+		margin:0px;
+		padding:4px 0 0 0;
+		font-family:Arial;
+		font-size:10px;
+		color:#000;
+		text-align:center;
+		text-decoration:none;
+		background-image:url(images/login.jpg);
+		background-repeat:no-repeat;
+	}
+.login:hover
+	{
+		width:50px;
+		height:19px;
+		float:left;
+		margin:0px;
+		padding:4px 0 0 0;
+		font-family:Arial;
+		font-size:10px;
+		color:#000;
+		text-align:center;
+		text-decoration:none;
+		background-image: url(/images/loginover.jpg);
+		background-repeat:no-repeat;
 	}
 footer {
     background-color: #E2E2E2;
