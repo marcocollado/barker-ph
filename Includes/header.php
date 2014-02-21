@@ -3,18 +3,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>My Site's Title</title>
-        <link href="/Styles/Site.css" rel="stylesheet" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Barker.ph</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
 
     </head>
     <body>
-        <div class="outer-wrapper">
-        <header>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p class="site-title"><a href="/index.php">My Site</a></p>
-                </div>
                 <div class="float-right">
                     <section id="login">
                         <ul id="login">
@@ -42,30 +38,6 @@
                         } ?>
                     </section>
                 </div>
-
                 <div class="clear-fix"></div>
             </div>
-
-                <section class="navigation" data-role="navbar">
-                    <nav>
-                        <ul id="menu">
-                            <li><a href="/index.php">Home</a></li>
-                            <?php
-                                $statement = $databaseConnection->prepare("SELECT id, menulabel FROM pages");
-                                $statement->execute();
-
-                                if($statement->error)
-                                {
-                                    die("Database query failed: " . $statement->error);
-                                }
-
-                                $statement->bind_result($id, $menulabel);
-                                while($statement->fetch())
-                                {
-                                    echo "<li><a href=\"/page.php?pageid=$id\">$menulabel</a></li>\n";
-                                }
-                            ?>
-                        </ul>
-                    </nav>
-            </section>
-        </header>
+</body> 

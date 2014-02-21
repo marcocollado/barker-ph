@@ -1,33 +1,28 @@
     <?php 
         require_once ("Includes/simplecms-config.php"); 
         require_once  ("Includes/connectDB.php");
-        include("Includes/header.php");         
+        require_once ("Includes/session.php");
+        include("Includes/header.php");  
+     
      ?>
 
 
-    <div id="main">
-    <h3>Get started with your website</h3>
 
-    <ol class="round">
-        <li class="one">
-            <h5>Login as admin </h5>
-           The site admin username and password are stored in the config file in the Includes directory. 
-        </li>
-        <li class="two">
-            <h5>Customize your site, Lester the Fester Ingester!</h5>
-             After you login, you can add, delete, and modify web pages.
-         </li>
-        <li class="asterisk">
-            <div class="visit">
-                To learn more about PHP, visit <a href="http://php.net" title="PHP.net Website">http://php.net</a>. 
-            </div>
-         </li>
-    </ol>
-
-
+  <div id="headerbg">
+  <div id="headerblank">
+    <div id="header">
+      <div id="menu">
+        <ul>
+          <li><a href="#" class="menu">About Us</a></li>
+          <li><a href="#" class="menu">Overview</a></li>
+          <li><a href="#" class="menu">About Us</a></li>
+          <li><a href="#" class="menu">Clients</a></li>
+          <li><a href="#" class="menu">Contact </a></li>
+        </ul>
+      </div>
     </div>
-
-</div> <!-- End of outer-wrapper which opens in header.pho -->
+  </div>
+</div>
 
 <?php 
     include ("Includes/footer.php");
