@@ -15,43 +15,34 @@
         <ul>
           <li><a href="#" class="menu">About Us</a></li>
           <li><a href="#" class="menu">Overview</a></li>
-          <li><a href="#" class="menu">About Us</a></li>
-          <li><a href="#" class="menu">Clients</a></li>
-          <li><a href="#" class="menu">Contact </a></li>
+          <li><a href="#" class="menu">Help A Friend</a></li>
+          <li><a href="#" class="menu">Find A Way</a></li>
+          <li><a href="#" class="menu">Contact Us </a></li>
         </ul>
       </div>
               
-        <div class="float-right">
-                    <section id="login">
-                        <ul id="login">
-                        <?php
-                        if (logged_on())
-                        {
-                            echo '<li><a href="/logoff.php">Sign out</a></li>' . "\n";
-                            if (is_admin())
-                            {
-                                echo '<li><a href="/addpage.php">Add</a></li>' . "\n";
-                                echo '<li><a href="/selectpagetoedit.php">Edit</a></li>' . "\n";
-                                echo '<li><a href="/deletepage.php">Delete</a></li>' . "\n";
-                            }
-                        }
-                        else
-                        {
-                            echo '<li>Are you already a member? Sign in here.</li>' . "\n";
-                            echo '<li><a href="/logon.php">Login</a></li>' . "\n";
-                            echo '<li><a href="/register.php">Register</a></li>' . "\n";
-                        }
-                        ?>
-                        </ul>
-                        <?php if (logged_on()) {
-                            echo "<div class=\"welcomeMessage\">Welcome, <strong>{$_SESSION['username']}</strong></div>\n";
-                        } ?>
-                    </section>
-                </div>
+       
+    <div id="login">
+        <div id="logintxtblank">
+          <div id="loginheading">
+          </div>
+          <div id="username">User Name:</div>
+          <div id="input">
+            <label>
+              <input name="textfield" type="text" class="input" id="textfield" value="" placeholder="Enter your username here"/>
+            </label>
+          </div>
+          <div id="password">Password:</div>
+          <div id="input02">
+            <label>
+              <input name="textfield2" type="password" class="input" id="textfield2" value="" placeholder="Enter your password here" />
+            </label>
+          </div>
+          <div id="loginbutton" ><a href="" class="">Login</a></div>
+             
+        </div>
+      </div>             
     </div>
   </div>
 </div>
 
-<?php 
-    include ("Includes/footer.php");
- ?>
